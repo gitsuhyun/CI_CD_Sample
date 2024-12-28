@@ -38,6 +38,10 @@ class LoginViewModel : ViewModel() {
         clearGeneralError()
     }
 
+    fun test() {
+
+    }
+
     fun onLogin() {
         if (_username.value == "admin" && _password.value == "123456") {
             _generalError.value = null
